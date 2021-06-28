@@ -11,7 +11,6 @@
 </template>
 
 <script>
-import axios from 'axios'
 import env from '../config/env'
 import albumCard from '../components/albumCard.vue'
 export default{
@@ -23,7 +22,7 @@ export default{
         }
     },
     created(){
-        axios.get(`${env.endpoint}/albums`).then(response=>this.albums=response.data) 
+        this.albums=fetch(`${env.endpoint}/albums`).json()
          
     }
 }
