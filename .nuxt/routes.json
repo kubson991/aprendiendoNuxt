@@ -1,0 +1,16 @@
+[
+  {
+    "name": "albums-id",
+    "path": "/albums/:id?",
+    "component": "/home/sebastian/proyectosPersonales/Nuxt/pages/albums/_id.vue",
+    "chunkName": "pages/albums/_id",
+    "_name": "_14596ae9"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/sebastian/proyectosPersonales/Nuxt/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_137ab330"
+  }
+]
