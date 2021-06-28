@@ -1,4 +1,4 @@
 export default{
-    endpoint:'http://jsonplaceholder.typicode.com',
+    endpoint:'https://jsonplaceholder.typicode.com',
     
 }
