@@ -21,8 +21,9 @@ export default{
             albums:[]
         }
     },
-    created(){
-        this.albums=fetch(`${env.endpoint}/albums`).json()
+    async created(){
+        this.albums=await (await fetch(`${env.endpoint}/albums`)).json()
+        console.log(this.albums)
          
     }
 }
